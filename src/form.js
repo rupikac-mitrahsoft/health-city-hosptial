@@ -1,7 +1,6 @@
 import './form.css';
 function Form() {
     return (
-        <>
             <div style={{ display: 'grid', justifyContent: 'center',padding:23}}>
                 <div class="card" style={{ width: '34rem', backgroundColor: '#3c586e', color: 'white' }}>
                     <div style={{ display: 'grid', justifyContent: 'center',marginTop:37}}>
@@ -23,10 +22,8 @@ function Form() {
                             </div>
                         </div>
                         <div>
-                            <div>
                                 <label>Full Legal Name</label><span>*</span>
                                 <hr style={{ border: '1px solid white' }}></hr>
-                            </div>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
                                 <div>
                                     <label> Date of Birth</label><span>*</span><i class="bi bi-calendar"></i>
@@ -80,7 +77,6 @@ function Form() {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 
