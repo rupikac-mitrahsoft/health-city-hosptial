@@ -1,3 +1,230 @@
-.div-container2{
-    display:flex
+.div-container2 {
+    display: flex
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    padding: 23px;
+}
+
+.sub-container {
+    width: 34rem;
+    background-color: #3c586e;
+    color: white
+}
+
+.header-container {
+    display: flex;
+    padding: 36px
+}
+
+.header-subcontainer {
+    /* display: grid;
+    justify-content: center; */
+    margin-top: 30px;
+}
+
+.img-container {
+    height: 144px
+}
+
+.primary-Centerstyle {
+    display: grid;
+    justify-content: center
+}
+
+.card-container {
+    display: grid;
+    row-gap: 12px;
+}
+
+.card-Subcontainer {
+    display: grid;
+    row-gap: 28px
+}
+
+.dob-medical-row {
+    display: flex;
+    column-gap: 21px;
+}
+
+.ph-email-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.street-city-row {
+    display: flex;
+    column-gap: 21px;
+}
+
+.state-zip-row {
+    display: flex;
+    column-gap: 21px;
+}
+
+.line-textfield-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.line-textfield {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.line-textfield-subcontainer {
+    display: flex;
+}
+
+.primary-line-textfield {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 232px
+}
+
+.secondary-line-textfield {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    width: 246px
+}
+
+/*Mediq query medium screen 641px*/
+
+@media screen and (max-width:640px) {
+    .header-container {
+        padding: 9px;
+    }
+
+    .container {
+        display: flow;
+        padding: 11px;
+    }
+
+    .sub-container {
+        width: 25rem;
+    }
+
+    .primary-line-textfield {
+        width: 100%;
+    }
+
+    .secondary-line-textfield {
+        width: 100%;
+
+    }
+
+    .dob-medical-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dob-medical-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .medical-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ph-email-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ph-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .street-city-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .street-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .city-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .state-zip-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .state-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zip-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .sub-container {
+        width: 22rem;
+    }
+
+    .img-container {
+        height: 118px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:321px) {
+    .sub-container {
+        width: 19rem;
+    }
+
+    .container {
+        padding: 7px;
+    }
+
+    .img-container {
+        height: 87px;
+        margin-top: 32px;
+    }
+
+    .header-container {
+        padding: 1px;
+    }
+
+}
+
+@media screen and (min-width:2560px) {
+    .container {
+        margin-top: 130px;
+    }
 }
